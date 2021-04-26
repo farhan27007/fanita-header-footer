@@ -1,0 +1,163 @@
+/* root settings */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@300&family=Poppins:wght@400;700&display=swap');
+
+/* nav */
+.color-txt-blck {
+    color: #000;
+  }
+  .navbar-light {
+    background-color: transparent !important;
+    transition: 500ms ease;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar-light.scrolled{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    background-color: #fff !important;
+
+  }
+  .nav-2 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .navbar-nav {
+    margin-left: 25px;
+  }
+  .cont-nav {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .navbar-brand {
+      padding-top: 0;
+      margin-top: -12px;
+  }
+  .nav-link {
+    margin-top: 6px;
+    margin-left: 32px;
+    font-size: 16.6px !important;
+    font-family: 'Poppins', sans-serif;
+    color: #000 !important;
+    position: relative;
+    border-bottom: 2px solid transparent;
+  }
+  .nav-link:hover,.nav-link:focus,.nav-link:active {
+    color: #EF6C7F !important;
+  }
+  .login-button-navbar {
+    border: 2px solid #EF6C7F;
+    border-radius: 16px;
+    padding:10px 38px !important;
+  }
+  .img-navbar-user {
+    height: 30.5px;
+    border-radius: 50px;
+  }
+  .icon-bar {
+    width: 22px; 
+    height: 2px;
+    background-color: #000;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px
+  }
+  
+  .navbar-toggler {
+    border: none;
+    background: transparent !important;
+    outline: none !important;
+  }
+  
+  .navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+  
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+  
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+  
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+  
+/* nav */
+
+@media (max-width:768px) {
+    .navbar-light {
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        background-color: #fff !important;
+    }
+    .navbar-nav {
+        margin-top:15px;
+        margin-bottom: 15px;
+    }
+    .navbar-brand {
+        margin-top: -8px;
+    }
+    .menu-list-item {
+        text-align: center;
+        margin-left: 0;
+        font-size: 16px !important;
+    }
+    .text-left-xs {
+        text-align: left !important;
+    }
+    .display-mt-footer {
+        margin-top: 60px !important;
+    }
+    .js-mobile-start {
+        justify-content: start !important;
+    }
+}
+
+/* global css */
+.fsz-18 {
+    font-size: 18px !important; 
+}
+.fsz-15 {
+    font-size: 15px !important; 
+}
+.title-sti {
+    font-family: 'Poppins';font-weight: bold;font-size: 48px;line-height: 1.25;
+  }
+  .sub-title-sti {
+    font-family: 'Be Vietnam', sans-serif;font-size:17px;
+  }
+/* global css */
+
+/* footer section */
+.icon-fanita-footer {
+    margin-top: 48px;
+  }
+  .border-footer {
+    border-bottom:1px solid #E6E6E6;
+    margin-top: 22px;
+    margin-bottom: 17px;
+  }
+  .sub-footer-title {
+    font-size: 16px;color:#666666;text-decoration: none;
+  }
+  .no-opacity {
+    opacity: 0;
+  }
+  .text-bottom-footer {
+    font-size: 14px;color:#999999;
+  }
+  .link-bottom-footer , .link-bottom-footer:hover {
+   font-size: 14px;color:#999999;font-weight: bold;text-decoration: none;      
+  }
+  /* footer section */
+  
